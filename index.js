@@ -17,7 +17,7 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   // three separate outputs depending on case
   let upperCase = string.toUpperCase;
-  let lowerCase = string.toUpperCase;
+  let lowerCase = string.toLowerCase;
   
   if (string === 'I love you, Grandma.') {
     return 'I love you, too.';
@@ -27,7 +27,7 @@ function sayHiToGrandma(string) {
   }
   
   if (string === lowerCase) {
-    return 'I can\'t hear you!' 
+    return 'I cant hear you!' 
   }
 }
 
